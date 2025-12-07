@@ -3,7 +3,7 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 import sys
-
+ 
 from cube import get_cut_cube_vertices, get_cut_cube_edges
 from transformations import apply_isometric_projection, translate_point
 
