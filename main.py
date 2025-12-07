@@ -18,7 +18,7 @@ def draw_line_3d(p1, p2):
 
 
 def draw_cube(vertices, edges, ox=0, oy=0, oz=0):
-    verts = [translate_point(v, ox, oy, oz) for v in vertices]
+    verts = [translate_point(v, ox, oy, oz) for v in vertices] 
     for e in edges:
         draw_line_3d(verts[e[0]], verts[e[1]])
 
