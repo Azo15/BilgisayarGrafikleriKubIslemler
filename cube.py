@@ -6,7 +6,7 @@ def get_cut_cube_vertices():
     """Köşesi kesilmiş küpün köşe noktaları"""
     return [
         [0.5, 0.0, 0.0],  # 0 - kesilmiş köşe (x)
-        [0.0, 0.5, 0.0],  # 1 - kesilmiş köşe (y)
+        [0.0, 0.5, 0.0],  # 1 - kesilmiş köşe (y) 
         [0.0, 0.0, 0.5],  # 2 - kesilmiş köşe (z)
 
         [1.0, 0.0, 0.0],  # 3
